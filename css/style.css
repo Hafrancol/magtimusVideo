@@ -1,3 +1,12 @@
+.general-button {
+  width: 200px;
+  height: 50px;
+  padding: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -81,6 +90,10 @@ header {
 }
 .section1__text p {
   margin-top: 25px;
+  color: #63637b;
+  padding: 0 10px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 .section1__text hr {
   width: 100px;
