@@ -4,7 +4,26 @@
   padding: 16px;
   border: 1px solid #dddddd;
   border-radius: 10px;
+  margin: 15px 15px auto;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.general-button:hover {
+  -webkit-box-shadow: 1px 1px 20px 4px rgba(0, 0, 0, 0.79);
+          box-shadow: 1px 1px 20px 4px rgba(0, 0, 0, 0.79);
+}
+
+hr {
+  width: 100px;
+  height: 3px;
   margin: 0 auto;
+  background: #833ab4;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#fcb045), color-stop(#fd1d1d), to(#833ab4));
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
 }
 
 * {
@@ -46,7 +65,7 @@ header {
 }
 
 .header__logo--img {
-  width: 100%;
+  width: 98%;
 }
 
 .header__text {
@@ -95,15 +114,59 @@ header {
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
-.section1__text hr {
-  width: 100px;
-  height: 3px;
+
+.section2 {
+  background-color: white;
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+.section2 h2 {
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
+.content__cards {
+  width: 100%;
+  margin-top: 40px;
+}
+.content__cards h4 {
+  margin-bottom: 20px;
+}
+.content__cards p {
+  margin: 0 20px;
+  font-size: 1.8rem;
+  color: #a1adcc;
+}
+
+.icon--cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #dddddd;
   margin: 0 auto;
-  background: #833ab4;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#fcb045), color-stop(#fd1d1d), to(#833ab4));
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border: none;
+  margin-bottom: 30px;
+}
+
+.flaticon {
+  margin: auto;
+  font-size: 60px;
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  padding: 53px;
+}
+
+.flaticon-arrow {
+  color: #f8afb1;
+}
+
+.flaticon-email {
+  color: #8d88af;
+}
+
+.flaticon-calendar {
+  color: #75c5f8;
 }

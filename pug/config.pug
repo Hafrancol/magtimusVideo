@@ -1,2 +1,9 @@
 mixin button(text)
 	button(type="button" class="general-button")=text
+
+mixin cards(icon, titulo, parrafo)
+	.content__cards
+				.icon--cards
+					i(class=icon class="flaticon") 
+				h4=titulo
+				p= parrafo 

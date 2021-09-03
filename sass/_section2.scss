@@ -1,0 +1,61 @@
+.section2{
+	background-color: white;
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+
+	h2{
+		font-weight: 100;
+		margin-bottom: 15px;
+	}
+
+}
+
+.content__cards{
+	width: 100%;
+	margin-top: 40px;
+
+	h4{
+		margin-bottom: 20px;
+	}
+	p{
+		margin: 0 20px;
+		font-size: 1.8rem;
+		color:$color-title;
+	}
+
+}
+
+.icon--cards {
+	display: flex;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border:1px solid #dddddd;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+
+	
+}
+.flaticon{
+	margin: auto;
+	font-size: 60px;
+	border:1px solid #dddddd;
+	border-radius: 50%;
+	padding: 53px;
+}
+
+.flaticon-arrow{
+color:#f8afb1;
+
+}
+
+.flaticon-email{
+color: #8d88af;
+}
+
+.flaticon-calendar{
+color: #75c5f8;
+}
+

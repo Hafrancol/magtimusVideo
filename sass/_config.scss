@@ -7,10 +7,22 @@ $color-title:#a1adcc;
 	padding: 16px;
 	border: 1px solid #dddddd;
 	border-radius: 10px;
-	margin: 0 auto;
-	
+	margin: 15px 15px auto;
+	font-size: 1.8rem;
+	cursor: pointer;
+	&:hover{ 
+		box-shadow: 1px 1px 20px 4px rgba(0,0,0,0.79); ;
+	}
+}
 
-	
+hr{
+	width: 100px;
+	height: 3px;
+	margin:0 auto;
+	background: #833ab4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border: none;
 }
 
 *{

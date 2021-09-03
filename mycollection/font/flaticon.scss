@@ -1,0 +1,37 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d84fc968708a5fc3397062bf2894cfc9") format("truetype"),
+url("./flaticon.woff?d84fc968708a5fc3397062bf2894cfc9") format("woff"),
+url("./flaticon.woff2?d84fc968708a5fc3397062bf2894cfc9") format("woff2"),
+url("./flaticon.eot?d84fc968708a5fc3397062bf2894cfc9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d84fc968708a5fc3397062bf2894cfc9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "arriba-el-contorno-del-boton-cuadrado": "\f101",
+    "correo-electronico-abierto-esbozado-sobre-simbolo-de-interfaz-posterior": "\f102",
+    "simbolo-de-interfaz-de-evento-de-esquema-de-calendario-semanal": "\f103",
+);
+
+.flaticon-arriba-el-contorno-del-boton-cuadrado:before {
+    content: map-get($flaticon-map, "arriba-el-contorno-del-boton-cuadrado");
+}
+.flaticon-correo-electronico-abierto-esbozado-sobre-simbolo-de-interfaz-posterior:before {
+    content: map-get($flaticon-map, "correo-electronico-abierto-esbozado-sobre-simbolo-de-interfaz-posterior");
+}
+.flaticon-simbolo-de-interfaz-de-evento-de-esquema-de-calendario-semanal:before {
+    content: map-get($flaticon-map, "simbolo-de-interfaz-de-evento-de-esquema-de-calendario-semanal");
+}
