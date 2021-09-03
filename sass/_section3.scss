@@ -1,0 +1,55 @@
+.section3{
+	background-color: white;
+	text-align: center;
+	padding:0 25px;
+	padding-top: 35px;
+	
+	h2{
+		margin-bottom:15px;
+	}
+	p{
+		margin-top: 15px;
+		letter-spacing: 1px;
+		margin-bottom:15px;
+		color:$color-title ;
+	}
+}
+
+.content-staditic{
+width:100%;
+border-radius: 15px;
+
+}
+
+.card1{
+background-color:#EFA8D0 ;
+border-radius: 10px 10px 0px 0px;
+}
+
+.card2{
+background-color:#c79cc8 ;
+}
+.card3{
+background-color: #a89cc8;
+}
+.card4{
+background-color: #9bb2e1;
+border-radius: 0px 0px 10px 10px;
+}
+
+
+.stadistic-card{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	h4{
+		color:white
+	}
+	p{
+		color: white;
+	}
+	i{
+		font-size: 8rem;
+		color: white;
+	}
+}

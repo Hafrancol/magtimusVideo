@@ -1,0 +1,41 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?ef2ba3c261e3181a5f68cf195754777f") format("truetype"),
+url("./flaticon.woff?ef2ba3c261e3181a5f68cf195754777f") format("woff"),
+url("./flaticon.woff2?ef2ba3c261e3181a5f68cf195754777f") format("woff2"),
+url("./flaticon.eot?ef2ba3c261e3181a5f68cf195754777f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ef2ba3c261e3181a5f68cf195754777f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "shuttle": "\f101",
+    "diamond": "\f102",
+    "laptop": "\f103",
+    "bar-chart": "\f104",
+);
+
+.flaticon-shuttle:before {
+    content: map-get($flaticon-map, "shuttle");
+}
+.flaticon-diamond:before {
+    content: map-get($flaticon-map, "diamond");
+}
+.flaticon-laptop:before {
+    content: map-get($flaticon-map, "laptop");
+}
+.flaticon-bar-chart:before {
+    content: map-get($flaticon-map, "bar-chart");
+}
