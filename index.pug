@@ -1,46 +1,6 @@
 extends pug/template.pug
 block continue
 	main
-		section.section1
-			.section1__picture
-				img(src="https://i.imgur.com/dtrajmb.jpg", alt="ImagenSection1")
-			.section1__text
-				h2 Lorem, ipsum dolor.
-				hr
-				p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste soluta alias maiores neque necessitatibus? Voluptatibus at rem quis, veritatis itaque saepe iusto explicabo, aspernatur in porro quam molestias asperiores laboriosam.
-
-				+button("learn more")
-		section.section2 
-			h2 Magna Vereros
-			hr
-			.content__cards
-				+cards("flaticon-arrow","Lorem ipsu","Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste soluta alias maiores neque necessitatibus? Voluptatibus at rem quis")
-				+cards("flaticon-email","Lorem ipsu","Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste soluta alias maiores neque necessitatibus? Voluptatibus at rem quis")
-				+cards("flaticon-calendar","Lorem ipsu","Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste soluta alias maiores neque necessitatibus? Voluptatibus at rem quis")
-			+button("Learn more")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
-
-
-
-
+		include pug/section1.pug
+		include pug/section2.pug
+		include pug/section3.pug

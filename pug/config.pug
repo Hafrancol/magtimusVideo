@@ -7,3 +7,9 @@ mixin cards(icon, titulo, parrafo)
 					i(class=icon class="flaticon") 
 				h4=titulo
 				p= parrafo 
+
+mixin stadistic-card(icon,h4text,text,iconClass)
+	.stadistic-card(class=iconClass)
+		i(class=icon)
+		h4=h4text 
+		p=text
