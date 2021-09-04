@@ -176,6 +176,7 @@ header {
   text-align: center;
   padding: 0 25px;
   padding-top: 35px;
+  padding-bottom: 40px;
 }
 .section3 h2 {
   margin-bottom: 15px;
@@ -224,4 +225,23 @@ header {
 .stadistic-card i {
   font-size: 8rem;
   color: white;
+}
+
+.section4 {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.section4 h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.section4 p {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.getstartedButton {
+  background-color: #9bb2e1;
 }
