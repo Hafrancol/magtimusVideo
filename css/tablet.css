@@ -1,0 +1,47 @@
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.section1__picture {
+  width: 80%;
+}
+.section1__picture img {
+  width: 220px;
+  height: 220px;
+}
+
+.content-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-stadistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card1 {
+  background-color: #EFA8D0;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.card2 {
+  background-color: #c79cc8;
+}
+
+.card3 {
+  background-color: #a89cc8;
+}
+
+.card4 {
+  background-color: #9bb2e1;
+  border-radius: 0px 10px 10px 0px;
+}

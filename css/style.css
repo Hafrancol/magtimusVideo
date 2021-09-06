@@ -44,6 +44,12 @@ body {
   padding: 0 20px;
 }
 
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  background-color: white;
+}
+
 a {
   text-decoration: none;
   color: #a1adcc;
@@ -190,7 +196,7 @@ header {
 
 .content-staditic {
   width: 100%;
-  border-radius: 15px;
+  margin: 0 auto;
 }
 
 .card1 {
@@ -212,8 +218,9 @@ header {
 }
 
 .stadistic-card {
-  width: 100%;
-  height: auto;
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
   padding: 15px;
 }
 .stadistic-card h4 {
@@ -232,6 +239,7 @@ header {
   background-color: white;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 .section4 h2 {
   margin-bottom: 20px;
